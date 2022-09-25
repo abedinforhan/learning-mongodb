@@ -1,3 +1,5 @@
+
+//project with operators
 db.getCollection("persons").aggregate([
   { $match: { gender: "female" } },
   {
